@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Comparisons</title>
+</head>
+
+<body>
+    <!-- Begin Top Navbar -->
+    <div class='bg-1'>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><i class="bi bi-umbrella"></i> Weather</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-8 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-graph-up"></i>
+                                Plots
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="Temperature.html"><i class="bi bi-thermometer-high"></i>
+                                        Temperature</a></li>
+                                <li><a class="dropdown-item" href="Humidity.html"><i class="bi bi-cloud-haze2"></i>
+                                        Humidity</a></li>
+                                <li><a class="dropdown-item" href="Cloudiness.html"><i class="bi bi-cloud"></i>
+                                        Cloudiness</a></li>
+                                <li><a class="dropdown-item" href="Windspeed.html"><i class="bi bi-wind"></i>
+                                        Windspeed</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../index.html"><i class="bi bi-umbrella"></i> Back to
+                                        Home</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="Comparisons.html"><i
+                                    class="bi bi-grid-fill"></i></i> Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Data.html"><i class="bi bi-table"></i> Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Top Navbar -->
+        <div class="parent-container d-flex">
+            <div class=container>
+                <h3 class="text-center"><br>Weather Scatter Charts</h3><br>
+                <h6 class="text-center">Click anywhere on the image to view analysis for cloudiness</h6>
+                <div class="row">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card">
+                            <a href="Temperature.html">
+                                <img class="card-img-top" src="..\assets\images\latitude-vs-temp.png"
+                                    alt="Card image cap">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Temperature Analysis</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card">
+                            <a href="Humidity.html">
+                                <img class="card-img-top" src="..\assets\images\latitude-vs-Humidity.png"
+                                    alt="Card image cap">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Humidity Analysis</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card">
+                            <a href="Cloudiness.html">
+                                <img class="card-img-top" src="..\assets\images\latitude-vs-cloudiness.png"
+                                    alt="Card image cap">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Cloudiness Analysis</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card">
+                            <a href="Windspeed.html">
+                                <img class="card-img-top" src="..\assets\images\latitude-vs-windspeed.png"
+                                    alt="Card image cap">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Windspeed Analysis</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
