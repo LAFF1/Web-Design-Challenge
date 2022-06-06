@@ -53,7 +53,7 @@ bootstrap-icons@1.8.3
 openweathermap.org   
 NOAA Photo Library https://www.photolib.noaa.gov/  
 ***
-To reproduce the data used in this file you can use the following Jupyter Notebook    
+To reproduce the data used in this project including visualizations you can use the following Jupyter Notebook    
 https://github.com/LAFF1/Python-API-Challenge/tree/main/WeatherPy
 The notebook has the following dependencies:
 matplotlib | pandas | numpy | requests | time | scipy | termcolor | datetime  
