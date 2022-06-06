@@ -1,4 +1,5 @@
-# Web-Design-Challenge
+# Web-Design-Challenge 
+#### Note this ReadMe is best viewed by clicking on ReadMe in the repository. 
 Weather Analysis Web Page Demostrating Bootstrap
 Demostration of dynamic page sizing and content alignment using the bootstrap grid system. A full function navigation bar with a dropdown element. The use of bootstrap tables. This repository represents a no frills framework application of these elements and would be a great jumping off point for you own project. There is very little custom .css (and it is well documented). Please see dependencies at the bottom of this document. 
 ***
