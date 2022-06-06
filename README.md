@@ -9,11 +9,11 @@ Extra Large Screen - visualizations are displayed 4-up to the right and the navi
 Large Screen - visualizations are displayed 4 in a row and below, the navigation menu is displayed in full text.
 ![image](https://user-images.githubusercontent.com/98897041/172231107-f0cc2680-2b1f-45e0-a639-76b097b99f69.png)
 
-Medium/Small Screen(medium and small screen sizes behave the same)(shown in two images) - visualizations are displayed 4-up and below and the navigation menu is compressed. The image on the right shows the same screen with the navigation menu fully expanded.  
+Medium/Small Screen(medium and small screen sizes behave the same)(shown in two images) - visualizations are displayed 4-up and below and the navigation menu is compressed. The image on the right (or below Depending on your screen size) shows the same screen with the navigation menu fully expanded.  
 ![image](https://user-images.githubusercontent.com/98897041/172235612-49d47efa-60c6-4fd3-8f92-e52183d86c7b.png)![image](https://user-images.githubusercontent.com/98897041/172237104-c8ea6101-2dc7-4c2e-83d1-6efdc3c7ef35.png)
 
 
-Xsmall screen(shown in two images) - all screen objects are compressed to a single row navigation remains compressed and the navigation bar becomes blue. The image on the right is the same screen scrolled down. 
+Xsmall screen(shown in two images) - all screen objects are compressed to a single row navigation remains compressed and the navigation bar becomes blue. The image on the right (or below Depending on your screen size) is the same screen scrolled down. 
 
 ![image](https://user-images.githubusercontent.com/98897041/172231964-e90305e8-427c-4d5b-90eb-17c215254dad.png)![image](https://user-images.githubusercontent.com/98897041/172232296-bf20f5c6-0829-402b-8c63-7bc9018a7337.png)
 
