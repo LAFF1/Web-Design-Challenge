@@ -69,23 +69,37 @@
         <div class="container">
           <br><br><br>
           <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xxl-6">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xxl-6"><br>
               <div class="card">
-                <img class="card-img-top" src="assets/images/latitude-vs-temp.png" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Weather Analysis</h5>
-                  <p class="card-text">Overview: Project to determine weather patterns relative to latitudinal location.
-                    576
-                    random cities were sampled to review correlations between distance from the equator and it's
-                    impact on Temperature, Humidity, Cloudiness and Wind Speed</p>
-                  <a href="pages/Comparisons.html" class="btn btn-primary"><i class="bi bi-grid-fill"></i>
-                    Comparison</a>
+                  <h3 class="card-title text-center">Weather Analysis</h3><br>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img src="assets/images/latitude-vs-temp.png" alt="Card image land" class="rounded img-fluid">
+                      <!-- <p class="card-text">Overview: Project to determine weather patterns relative to latitudinal location. -->
+                    </div>
+                    <div class="col-sm-8">
+                      <p class="card-text">This project aims to determine if there is a correlation between the
+                        latitudinal locations of cities and the weather observations found there. Considering four
+                        weather measurements temperature, humidity, cloudiness and windspeed. </p>
+                    </div>
+                    <p>Data was pulled from openweather.org api on May 28, 2022. The complete data has been made
+                      available on this website. You can view the complete data used in this analysis by following the
+                      data link on this page. A randomized list of cities was pulled from the source, in this case 575
+                      cities are represented. </p>
+                    <H6>Special Hemispheric Considerations:</H6>
+                    <p>It should be noted that nearly 90% of the human population is in the Northern Hemisphere. When
+                      viewing the visualization this should be considered. To see a comparison of Northern and Southern
+                      Hemispheres you can follow the links below each of the visualization pages, where you will find a
+                      brief regression analysis of Northern and Southern Hemispheres. </p>
+                  </div>
+                  <a href="pages/Comparisons.html" class="btn btn-primary"><i class="bi bi-grid-fill"></i> Comparison</a>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xxl-6">
               <div class="container">
-                <br><br><br>
+                <br>
                 <h3 class="text-center">Visualizations</h3>
                 <div class="row">
                   <div class="col-sm-12 col-md-6 col-lg-3 col-xxl-6">
@@ -130,18 +144,22 @@
         <br><br><br><br><br><br><br><br><br>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"></script>
+    <footer class="footer-bs">
+      <a href="https://www.photolib.noaa.gov/"><small>Image Courtesy of NOAA Photo Library</small></a><br>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
